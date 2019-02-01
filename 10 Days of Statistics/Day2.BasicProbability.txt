@@ -1,0 +1,8 @@
+Task 
+In a single toss of  fair (evenly-weighted) six-sided dice, find the probability that their sum will be at most 9.
+
+
+Solution
+Total combinations of rolling 2 dice = 6*6 = 36
+Number of combinations that result in sums >9: (4,6) (6,4) (5,5) (6,5) (5,6) (6,6) = 6
+Number of combinartions that result in sum <=9: (36-6)/36 = 5/6
