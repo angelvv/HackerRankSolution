@@ -25,7 +25,7 @@ class Solution:
         #Write your code here
         pointer = head
         while pointer:
-            if pointer.next and pointer.data == pointer.next.data:
+            while pointer.next and pointer.data == pointer.next.data: # use while instead of if for >2 duplicates in a row
                 pointer.next = pointer.next.next
             pointer = pointer.next         
         return head
